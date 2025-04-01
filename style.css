@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body{
+background-color: #1F242D;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+
+header .stiv{
+    border-radius: 50px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+header nav ul li a{
+font-weight: 400;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: white;
+text-decoration: none;
+transition: 0.6s;
+}
+
+header nav ul li a:hover{
+    color: #00EEFF;
+}
+
+
+header i{
+    display: none;
+    color: white;
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.hero .hero-text h1,.rasm{
+ padding: 30px 0;
+}
+
+.hero .hero-text h1{
+font-weight: 700;
+font-size: 49.3px;
+line-height: 64.06px;
+letter-spacing: 0%;
+color: white;
+}
+.hero .hero-text h3{
+    color: #FFFFFF;
+font-weight: 700;
+font-size: 28.2px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.hero .hero-text p{
+font-weight: 300;
+font-size: 14.1px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+width: 340px;
+
+}
+
+.hero .hero-text .btn{
+    background: #00EEFF;
+    box-shadow: 0px 0px 8.8px 0px #00EEFF;
+font-weight: 600;
+font-size: 14.1px;
+line-height: 100%;
+letter-spacing: 0.88px;
+color: #323946;
+width: 155px;
+height: 40px;
+border-radius: 35px;
+border: none;
+margin-left: -160px;
+
+}
+
+.jobs{
+    width: 358px;
+    height: 358px;
+    border-radius: 50%;
+    animation: aylan 4s infinite linear;
+}
+
+
+
+@keyframes aylan {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.servis h1{
+    text-align: center;
+    color: white;
+font-weight: 700;
+font-size: 45.6px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 100px 0;
+
+}
+
+.servis h1 span{
+    color: #00EEFF;
+}
+
+.servis .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.servis .cards .card{
+    width: 270px;
+    height: 340px;
+    border-radius: 17px;
+    border: 1px solid #1F242D;
+    background: #323946;
+   text-align: center;
+   padding: 20px 0;
+   
+}
+
+.servis .cards .card h2{
+    padding: 40px 0;
+font-weight: 700;
+font-size: 22.9px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+
+}
+
+.servis .cards .card p{
+font-weight: 200;
+font-size: 14.1px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #FFFFFF;
+padding: 15px 0;
+
+}
+.servis .cards .card .btn2{
+    background: #00EEFF;
+    box-shadow: 0px 0px 8.8px 0px #00EEFF;
+     width: 133px;
+     height: 38px;
+     border-radius: 35px;
+     border: none;
+}
+.servis .cards .card1 .btn2{
+    background: #00EEFF;
+    box-shadow: 0px 0px 8.8px 0px #00EEFF;
+     width: 133px;
+     height: 38px;
+     border-radius: 35px;
+     border: none;
+}
+
+.servis .cards .card1{
+    width: 268px;
+    height: 337px;
+    border-radius: 17px;
+    border: 1px solid #1F242D;
+    background: #323946;
+   text-align: center;
+   padding: 20px 0;
+
+}
+.servis .cards .card1 h2{
+    padding: 40px 0;
+font-weight: 700;
+font-size: 22.9px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+
+}
+
+.servis .cards .card1 p{
+font-weight: 200;
+font-size: 14.1px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #FFFFFF;
+padding: 15px 0;
+
+}
+
+
+.servis{
+    padding: 100px 0;
+}
+
+.box{
+    background: #323946;
+ 
+}
+
+.box .container .rasmlar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    padding: 30px 0;
+}
+
+.box .container  h1{
+font-weight: 700;
+font-size: 39.6px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: white;
+padding: 50px 0;
+}
+.box .container  h1 span{
+    color: #00EEFF;
+  
+}
+
+
+
+.kontakt h1{
+color: #FFFFFF;
+font-weight: 700;
+font-size: 39.6px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.kontakt h1 span{
+    color: #00EEFF;
+}
+
+
+
+.kontakt .menu input{
+    width: 306px;
+    height: 47px;
+    border-radius: 7px;
+    background: #323946;
+color: #757575;
+font-weight: 400;
+font-size: 14.1px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 0 10px;
+border: none;
+outline: none;
+padding: 20px;
+margin: 10px 0;
+
+}
+
+.kontakt .menu textarea{
+    background: #323946;
+    width: 616px;
+    height: 236px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin: 10px 0 ;
+    padding: 10px   ;
+}
+
+.kontakt .menu{
+    margin-left: 320px;
+}
+
+.kontakt .menu .btn3{
+    background: #00EEFF;
+    box-shadow: 0px 0px 8.8px 0px #00EEFF;
+font-weight: 600;
+font-size: 14.1px;
+line-height: 100%;
+letter-spacing: 0.88px;
+color: #323946;
+width: 155px;
+height: 40px;
+border-radius: 35px;
+border: none;
+margin-left: 250px;
+}
+.kontakt{
+    padding: 50px 0;
+}
+
+
+
+footer{
+    background: #323946;
+    padding: 25px 0;
+   
+}
+
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container p{
+font-weight: 400;
+font-size: 14.1px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+
+
+
+.menu-btn{
+    background-color: inherit;
+    color: white;
+    font-size: 24px;
+    border: none;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    nav{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .hero{
+     gap: 40px;
+     flex-wrap: wrap;
+    }
+    .cards{
+        flex-wrap: wrap;
+
+    }
+    .cards .card{
+        width: 352px;
+        height: 316px;
+
+    }
+    .servis .cards .card1{
+        width: 721px;
+        height: 274px;
+        border-radius: 17px;
+        border: 1px solid #1F242D;
+        background: #323946;
+       text-align: center;
+       padding: 20px 0;
+    
+    }
+}
+
+
+
+@media(max-width:747px){
+    .servis .cards .card1{
+        width: 721px;
+        height: 274px;
+        border-radius: 17px;
+        border: 1px solid #1F242D;
+        background: #323946;
+       text-align: center;
+       padding: 20px 0;
+    
+    }
+    .servis .cards .card{
+        width: 721px;
+        height: 274px;
+        border-radius: 17px;
+        border: 1px solid #1F242D;
+        background: #323946;
+       text-align: center;
+       padding: 20px 0;
+    
+    }
+    .kontakt .menu{
+        flex-wrap: wrap;
+    }
+    .kontakt .menu textarea{
+
+        width: 306px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
